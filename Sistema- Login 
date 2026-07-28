@@ -1,0 +1,34 @@
+while True:
+    print("\n--- MENU DE LOGIN ---")
+    print("1. Email")
+    print("2. Telefone")
+    print("3. Conta Google")
+    print("4. Esqueci Senha")
+    print("5. Sair")
+    
+    
+    login = input("Escolha uma das opções acima para continuar: ")
+
+    if login == "Email" or login == "1":
+        email = input("Digite seu Email: ")
+        print(f"Você colocou seu Email: {email}")
+        
+    elif login == "Telefone" or login == "2":
+        
+        telefone = input("Digite seu Telefone: ")
+        print(f"Você colocou seu Telefone: {telefone}")
+        
+    elif login == "Conta Google" or login == "3":
+        conta_google = input("Digite sua Conta Google: ")
+        print(f"Você colocou sua Conta Google: {conta_google}")
+        
+    elif login == "Esqueci Senha" or login == "4":
+        nova_senha = input("Digite Sua Senha Nova: ")
+        print("Você fez uma senha nova com sucesso!")
+        
+    elif login == "Sair" or login == "5":
+        print("Saindo do sistema...")
+        break
+        
+    else:
+        print("Opção Inválida! Digite exatamente o nome ou o número da opção.")
