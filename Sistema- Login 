@@ -31,4 +31,4 @@ while True:
         break
         
     else:
-        print("Opção Inválida! Digite exatamente o nome ou o número da opção.")
+        print("Opção Inválida! Digite exatamente o nome ou o número da opção.").
